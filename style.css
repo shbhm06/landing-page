@@ -113,3 +113,26 @@ button {
     font-size: 18px;
 }
 
+.page-3 {
+    justify-content: center;
+    align-items: end;
+    padding: 200px 250px 200px 250px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.person {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
