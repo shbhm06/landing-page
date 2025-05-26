@@ -35,7 +35,7 @@ ul {
     margin: 0px;
 }
 
-button {
+.sign-up {
     color: white;
     background-color: #3882f6;
     font-size: 18px;
@@ -115,7 +115,7 @@ button {
 
 .page-3 {
     justify-content: center;
-    align-items: end;
+    
     padding: 200px 250px 200px 250px;
     background-color: #e5e7eb;
     display: flex;
@@ -134,5 +134,57 @@ button {
 .person {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    font-size: 20px;
+    
+    align-self: flex-end;
+}
+
+.page-4 {
+    font-family: 'Roboto', sans-serif;
+    padding: 150px 250px 150px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-4 {
+    background-color: #3882f6;
+    color: white;
+    padding: 80px 300px 80px 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.sign-up-2 {
+    color: white;
+    background-color: #3882f6;
+    font-size: 20px;
+    padding: 8px 28px 8px 28px;
+    border-radius: 10px;
+    font-weight: 800;
+    width: 200px;
+    border: 3px solid white;
+}
+
+.page-4-heading {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.page-4-text {
+    font-size: 22px;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
     font-size: 20px;
 }
