@@ -16,6 +16,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-right: 250px;
     margin-left: 250px;
 }
@@ -176,6 +177,12 @@ ul {
 
 .page-4-text {
     font-size: 22px;
+}
+
+.text-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 footer {
