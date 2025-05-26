@@ -30,7 +30,7 @@ a {
 ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     padding: 0px;
     margin: 0px;
 }
@@ -47,7 +47,7 @@ button {
 
 .content-1 {
     display: flex;
-    margin: 250px;
+    margin: 200px 250px 200px 250px;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
@@ -74,3 +74,42 @@ button {
     color: #f9faf8;
     font-weight: 900;
 }
+
+/* PAGE-2 STYLES */
+
+.page-2 {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page-2-heading {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 48px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin: 48px 250px 200px 250px;
+}
+
+.image-2 {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.block {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+
